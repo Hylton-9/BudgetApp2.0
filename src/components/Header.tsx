@@ -14,7 +14,7 @@ interface HeaderProps {
 const Header = ({ budget, onEdit }: HeaderProps) => {
     return (
         <header className="app-header">
-            <h1><i className="las la-wallet"></i> Hylton's Personal Budget Tracker</h1>
+            <h1><i className="las la-wallet"></i> Personal Budget Tracker</h1>
             <div className="header-controls">
                 <div className="budget-setter">
                     <span className="budget-label">Monthly Budget:</span>
